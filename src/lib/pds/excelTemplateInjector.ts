@@ -15,7 +15,7 @@ import {
 } from './excelMapper';
 import type { PDSData } from '@/types/pds.types';
 
-const TEMPLATE_PATH = './public/templates/PDS_2025_Template.xlsx';
+const TEMPLATE_PATH = '../public/templates/PDS_2025_Template.xlsx';
 
 type CellValue = string | number | boolean | Date | null | undefined;
 
